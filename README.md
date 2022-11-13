@@ -15,3 +15,25 @@ $$\overline{E^{2}}_{1}=\sqrt{\frac{Fa^{^{x-1}}}{(x-1)\cdot x}} +\alpha^{\frac{1}
 
 
 $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \right)$$
+
+
+
+Морзе в pyton 
+
+abc = list('abwgdevzijklmnoprstufhcqx')
+print(abc)
+
+morze='.- -... .-- --. -.. . ...- --.. .. .--- -.- .-.. -- - --- .--. .-. ... - ..- ..-. .... -.-. --.- -..-'
+m=morze.split()
+print(m)
+print(m[0])
+input()
+#перебор посимвольно текста for
+#искали этот символ в алфавите по индексу и запоминали номер .index
+#по этому номеру дергали элемент азбуки морзе [nomer]
+text=input(введите слово...)
+for i in text:
+    num=abc.index(i)
+    itog=itog+abcm[num]
+print(itog)
+
