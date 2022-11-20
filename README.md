@@ -41,3 +41,6 @@ $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \
 9. Exel таблица в pyton - таблица, но в питоне.py
 
 10. Таблицы Exel с логическими операциями - таблица132.ods / таблица132.xlsx
+
+11. Программа в pyton по решению 3-х видов задач (для к/р) - программка.py
+
