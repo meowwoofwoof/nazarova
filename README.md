@@ -44,3 +44,4 @@ $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \
 
 11. Программа в pyton по решению 3-х видов задач (для к/р) - программка.py
 
+12. Слайдшоу и видео - котята.py
