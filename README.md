@@ -18,6 +18,17 @@ $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \
 
 
 
+graph TD
+    A[негр?] 
+    
+    A --> C{да}
+    A --> D{нет}
+    D --> N{негр?}
+    N --> M{да}
+    N --> J{нет}
+
+
+
 
 
 Пояснения к файлам: 
