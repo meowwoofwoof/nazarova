@@ -47,3 +47,5 @@ $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \
 12. Слайдшоу и видео - котята.py
 
 13. Викторина - викторина.py
+
+14. Программка с примером функции - функция.py
