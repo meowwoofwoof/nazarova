@@ -18,9 +18,8 @@ $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \
 
 
 '''mermaid
-graph TD
+    graph TD
     A[негр?] 
-    
     A --> C{да}
     A --> D{нет}
     D --> N{негр?}
