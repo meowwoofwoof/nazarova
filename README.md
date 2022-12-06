@@ -17,7 +17,7 @@ $$\overline{E^{2}}_{1}=\sqrt{\frac{Fa^{^{x-1}}}{(x-1)\cdot x}} +\alpha^{\frac{1}
 $$\left(A \vee  B\right)\wedge C=\left( A\wedge C \right)\vee \left( B\wedge C \right)$$
 
 
-
+'''mermaid
 graph TD
     A[негр?] 
     
@@ -26,7 +26,7 @@ graph TD
     D --> N{негр?}
     N --> M{да}
     N --> J{нет}
-
+'''
 
 
 
