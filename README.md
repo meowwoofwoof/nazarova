@@ -42,6 +42,11 @@ graph TD
 ![mermaid-diagram-2022-12-20-100528](https://user-images.githubusercontent.com/114457221/208572263-db0e770f-4385-4375-beca-5b70bf53c1c1.png)
 
 
+
+![13 задание ЕГЭ с графами](https://user-images.githubusercontent.com/114457221/208807648-b5c8fdd9-657a-45d5-b46e-125d121f28bb.png)
+ 
+
+
 Пояснения к файлам: 
 
 1. Скриншот "Шоу профессий" - Screenshot_20221019_083411.jpg
@@ -73,6 +78,8 @@ graph TD
 14. Программка с примером функции - функция.py
 
 15. Теория игр ЕГЭ - mermaid-diagram-2022-12-20-100528.png
+
+16. Задание 13 из ЕГЭ (с графами) - 13 задание ЕГЭ с графами.png
 
 
 
