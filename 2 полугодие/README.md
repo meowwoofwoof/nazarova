@@ -92,6 +92,22 @@
    done()
    ```
    
+   ```python
+   from turtle import *
+left(90)
+for i in range (1):
+  forward(150)
+  right(90)
+  forward(150)
+  goto(0, 0)
+pu()
+for x in range (0,15):
+  for y in range (0,15):
+    goto(x*10, y*10)
+    dot(2)
+done()
+```
+   
    
    
    
