@@ -125,7 +125,7 @@ done()
 
 ```python 
 from itertools import product
-nums=product('01234567',repeat=5)
+nums=product('01234567',repeat=6)
 k=0
 n='16 36 56 76 61 63 65 67'
 nn=n.split()
