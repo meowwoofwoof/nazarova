@@ -14,7 +14,7 @@
 | 11 | |
 | 12 | |
 | 13 | |
-| 14 | |
+| 14 | + |
 | 15 | |
 | 16 | |
 | 17 | |
@@ -142,3 +142,37 @@ print(k)
 
 ```
 
+
+
+***Пояснения к 12 задаче:***
+
+Пример кода:
+
+```python
+spisok=[]
+for num in range(2,1000):
+  n=0
+  for delit in range (2,100):
+    if num%delit==0 and x<i: n+=1
+  
+  if n==0:spisok.append(num)
+        
+flag=False
+```
+
+
+
+
+
+***Пояснения к 14 задаче:***
+
+Пример кода:
+
+```python
+a='0123456789abcde'
+for x in a:
+    f=int(f'123{x}5',15)+int(f'1{x}233',15)
+    if  f%14 ==0:
+        print(f//14)
+        break
+ ```
