@@ -24,9 +24,9 @@
 | 21 | |
 | 22 | |
 | 23 | + |
-| 24 | |
-| 25 | |
-| 26 | |
+| 24 | + |
+| 25 | + |
+| 26 |  |
 | 27 | |
 
 
@@ -286,4 +286,33 @@ def f(x,y):
     elif x==y: return 1
     return f(x+1,y) + f(x*2, y)
 print(f(1,10)*f(10,35))
+```
+
+
+
+***Пояснения к 24 задаче:***
+
+Пример кода:
+```python
+with open('24.txt') as f:
+    s=f.readline().replace('C','S').replace('D','S').replace('F','S')
+    s=s.replace('A','G').replace('O','G')
+    s=s.replace('SG','*')
+    k=kmax=0
+    for i in s:
+        if i=='*':
+            k+=1
+            kmax=max(k,kmax)
+        else:k=0
+print(kmax)
+```
+
+
+
+***Пояснения к 25 задаче:***
+Пример кода:
+```python
+for i in range (2023, 10**10, 2023):
+    n=str(i)
+    if n[0]=='1' and n[2:6]=='2139' and n[-1]=='4': print(i, i/2023)
 ```
