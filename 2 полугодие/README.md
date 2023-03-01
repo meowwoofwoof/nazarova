@@ -26,7 +26,7 @@
 | 23 | + |
 | 24 | + |
 | 25 | + |
-| 26 |  |
+| 26 | + |
 | 27 | |
 
 
@@ -315,4 +315,22 @@ print(kmax)
 for i in range (2023, 10**10, 2023):
     n=str(i)
     if n[0]=='1' and n[2:6]=='2139' and n[-1]=='4': print(i, i/2023)
+```
+
+
+
+***Пояснения к 26 задаче:***
+Пример кода:
+```python
+with open ('26.txt') as f:
+    S=[int(x) for x in f]
+    S.pop(0)
+    S.sort(reverse=True)
+
+    k,mini=1, S[0]
+    for i in range (1,len(S)):
+        if S[i] +3<=mini:
+            mini=S[i]
+            k+=1
+    print(k, mini)
 ```
