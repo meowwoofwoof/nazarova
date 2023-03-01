@@ -342,3 +342,27 @@ with open ('26.txt') as f:
             k+=1
     print(k, mini)
 ```
+
+
+
+
+
+
+## Справочник функций PYTHON:
+```python
+1) print(a) - 
+2) inpuy() - 
+3) int() - 
+4) str() - 
+5) for x in range(): - 
+6) s.pop() - 
+7) with open ('названние файлa') as f: - 
+8) s.sort - 
+9) s.replace() - 
+10) s.readline() - 
+11) return - 
+12) def f(): - 
+13) break - 
+14) continue - 
+15) from itertools import product / product(' ',repeat=i)
+16) 
